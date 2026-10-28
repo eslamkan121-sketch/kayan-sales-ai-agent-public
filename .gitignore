@@ -1,0 +1,30 @@
+# Local runtime data and credentials
+.env
+.env.*
+!.env.example
+outputs/
+# The workbook-backed demo catalog is an intentional public runtime asset.
+!catalog_preview_review/outputs/
+!catalog_preview_review/outputs/KAYAN_catalog_color_variants_NEW.xlsx
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Model weights/tokenizers are large and some are private
+models/
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Workbook inspection scratch files (the demo workbook itself is intentionally included)
+catalog_preview_review/outputs/*.inspect.ndjson

@@ -1,0 +1,7 @@
+torch>=2.0
+transformers>=4.40
+scikit-learn>=1.4
+pandas>=2.0
+gradio>=5.0
+huggingface-hub>=0.22
+openpyxl>=3.1
